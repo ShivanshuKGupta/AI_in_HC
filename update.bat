@@ -8,8 +8,8 @@ echo "Before running this script make sure that you have a branch named %branchN
 git checkout %branchName%
 git add .
 git commit
-git checkout master
-git pull origin master
+git checkout main
+git pull origin main
 git merge %branchName%
 git push -u origin main
 git branch -d %branchName% 
