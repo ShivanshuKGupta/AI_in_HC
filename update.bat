@@ -11,7 +11,7 @@ git commit
 git checkout master
 git pull origin master
 git merge %branchName%
-git push -u origin master
+git push -u origin main
 git branch -d %branchName% 
 git branch %branchName% 
 git checkout %branchName%
