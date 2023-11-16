@@ -7,11 +7,11 @@ echo "Before running this script make sure that you have a branch named %branchN
 @echo on
 git checkout %branchName%
 git add .
-git commit
-git checkout master
-git pull origin master
+git commit -m "Update"
+git checkout main
+git pull origin main
 git merge %branchName%
-git push -u origin master
+git push -u origin main
 git branch -d %branchName% 
 git branch %branchName% 
 git checkout %branchName%
