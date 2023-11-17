@@ -1,4 +1,4 @@
 {
     "python.analysis.typeCheckingMode": "off",
-    "code-runner.customCommand": "./update.bat"
+    "code-runner.customCommand": "./update"
 }
